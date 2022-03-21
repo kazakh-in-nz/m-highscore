@@ -1,4 +1,4 @@
-module github.com/kazakh-in-nz/m-highscore/internal/server/grpc
+module github.com/kazakh-in-nz/m-highscore
 
 go 1.18
 
