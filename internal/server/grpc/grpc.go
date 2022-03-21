@@ -13,7 +13,8 @@ import (
 
 type Grpc struct {
 	address string
-	srv     *grpc.Server
+	pbhighscore.UnimplementedGameServer
+	srv *grpc.Server
 }
 
 var HighScore = 9999999999.0
